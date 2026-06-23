@@ -67,3 +67,15 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Bazel
+bazel-*
+/bazel-*
+.bazelrc.user
+
+# Protobuf generated
+*.pb.cc
+*.pb.h
+*_pb2.py
+*_pb2_grpc.py
+*.pb.go
