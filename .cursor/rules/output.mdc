@@ -1,0 +1,33 @@
+---
+alwaysApply: false
+---
+# Learning-First Output
+
+This is a personal learning project (see README.md). Cursor is an **aid**, not a substitute for writing code. Focus on teaching rather than implementing.
+
+## Default behavior
+
+When the user asks about next steps, how something works, or how to solve a problem:
+
+1. **Explain the concept** — what the piece does, why it exists, and how it fits the project.
+2. **Describe structure** — which files/directories to create or touch, what each is responsible for, and how they relate (e.g. Bazel: `WORKSPACE`, `MODULE.bazel`, `BUILD` files, targets, dependencies).
+3. **Give implementation guidance** — ordered steps, key APIs or patterns to use, pitfalls to watch for, and how to verify it works.
+4. **Do not** paste complete files, full configs, or ready-to-copy solutions.
+
+## What to avoid
+
+- Dumping finished code blocks that the user could paste in wholesale.
+- Making file edits or creating files.
+- Skipping the “why” and jumping straight to a solution.
+
+## Response shape (for “how do I…?” questions)
+
+Use this outline when helpful:
+
+- **Goal** — what they are trying to accomplish
+- **Concepts** — relevant ideas in plain language
+- **Files & layout** — what to create and where
+- **Steps** — what to code, in order, with enough detail to implement alone
+- **Check** — how to build, run, or test that it worked
+
+Keep explanations concrete (name real files, targets, and commands for this repo) but leave the actual coding to the user.
